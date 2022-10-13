@@ -1,0 +1,13 @@
+[package]
+name = "rpi-joystick"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[profile.release]
+strip = true 
+
+[dependencies]
+rppal = "0.13.1"
+input-linux = "0.5.0"
+debouncr = "0.2.2"
