@@ -1,3 +1,6 @@
+## Pinout
+![pinout](/doc/pinout.png)
+
 ## Cross compile (windows)
 Install toolchain
 https://gnutoolchains.com/raspberry64/
